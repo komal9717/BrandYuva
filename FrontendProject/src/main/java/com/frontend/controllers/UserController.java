@@ -54,11 +54,11 @@ public class UserController {
 	}
 	}
 	
+	/* @RequestParam which binds to a single form value, you can use @ModelAttribute annotation , bind to the whole object */
+	
      @RequestMapping(value = "/login", method = RequestMethod.GET)
-     public ModelAndView loginUser(@RequestParam(name="logout",required=false)String logout,
-    		 @RequestParam(name="error",required=false)String error) {
+     public ModelAndView loginUser(@RequestParam(name="logout",required=false)String logout, @RequestParam(name="error",required=false)String error) {
     	
-    	 
     	 
     	 ModelAndView mv = new ModelAndView("Login");
     	 if(logout!=null){

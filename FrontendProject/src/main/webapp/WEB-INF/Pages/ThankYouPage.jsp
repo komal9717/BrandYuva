@@ -11,19 +11,23 @@
 </head>
 <body>
 <br/>
+<br/>
 
 <div align="center">
   <h1>CONGRATULATIONS</h1>
-  <h2>YOUR ORDER HAS BEEN PLACED.</h2><br/><br/><br/><br/>
+  <h2>YOUR ORDER HAS BEEN PLACED.</h2><br/><br/><br/><br/><br/>
   <h3>Thank You For Shopping With Us!! </h3>
   </div>
 
  
-  <br/>
+  
 
 <!-- <p>Having trouble? <a href="">Contact us</a></p>
 <p class="lead">
 <a class="btn btn-primary btn-sm" >Continue to HomePage</a> -->
 </body>
 </html>
+
+<br/>
+<br/>
 <jsp:include page="Footer.jsp"/>

@@ -161,6 +161,8 @@ public class ProductController {
 		
 		return mv;
 	}
+	
+	
 	private void uploadImage(MultipartFile fileObj){
 		String filePathString = session.getServletContext().getRealPath("/");
 		System.out.println("filePathString : "+filePathString);
@@ -177,6 +179,7 @@ public class ProductController {
 			FileOutputStream fos=new FileOutputStream
 					(filePathString+"resources\\images\\"+fileObj.getOriginalFilename());
 			BufferedOutputStream bos= new BufferedOutputStream(fos);
+	
 			
 			bos.write(imageBytes);
 			bos.close();

@@ -19,15 +19,15 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <img src="${images}/img1.jpg" alt="Image 1" style="height:600px;width:1200px">
+      <img src="${images}/my2.jpg" alt="Image 1" style="height:600px;width:1200px">
     </div>
 
     <div class="item">
-      <img src="${images}/img2.jpg" alt="Image 2" style="height:600px;width:1200px">
+      <img src="${images}/my1.jpg" alt="Image 2" style="height:600px;width:1200px">
     </div>
 
     <div class="item">
-      <img src="${images}/img3.jpg" alt="Image 3" style="height:600px;width:1200px">
+      <img src="${images}/img1.jpg" alt="Image 3" style="height:600px;width:1200px">
     </div>
     
     
@@ -40,13 +40,10 @@
     </div>
     
      <div class="item">
-      <img src="${images}/img7.jpg" alt="Image 7" style="height:600px;width:1200px">
+      <img src="${images}/img2.jpg" alt="Image 7" style="height:600px;width:1200px">
     </div>
     
-     <div class="item">
-      <img src="${images}/img8.jpg" alt="Image 8" style="height:600px;width:1200px">
-    </div>
-    
+     
     
 </div>
 
@@ -79,22 +76,19 @@
   </div>
 
 	<div class="row">
-  <div class="col-sm-4"><img src="${images}/cloth1.jpg" class="img-thumbnail"style="height:400px;width:400px"></div>
-  <div class="col-sm-4"><img src="${images}/cloth2.jpg" class="img-thumbnail"style="height:400px;width:400px"></div>
-  <div class="col-sm-4"><img src="${images}/cloth3.jpg" class="img-thumbnail"style="height:400px;width:400px"></div>
-  <div class="col-sm-4"><img src="${images}/cloth4.jpg" class="img-thumbnail"style="height:400px;width:400px"></div>
-  <div class="col-sm-4"><img src="${images}/cloth5.jpg" class="img-thumbnail"style="height:400px;width:400px"></div>
-  <div class="col-sm-4"><img src="${images}/cloth6.jpg" class="img-thumbnail"style="height:400px;width:400px"></div>
-  <div class="col-sm-4"><img src="${images}/cloth7.jpg" class="img-thumbnail"style="height:400px;width:400px"></div>
-  <div class="col-sm-4"><img src="${images}/cloth8.jpg" class="img-thumbnail"style="height:400px;width:400px"></div>
-  <div class="col-sm-4"><img src="${images}/cloth9.jpg" class="img-thumbnail"style="height:400px;width:400px"></div>
-  <div class="col-sm-4"><img src="${images}/cloth10.jpg" class="img-thumbnail"style="height:400px;width:400px"></div>
-  <div class="col-sm-4"><img src="${images}/cloth11.jpg" class="img-thumbnail"style="height:400px;width:400px"></div>
-  <div class="col-sm-4"><img src="${images}/cloth12.jpg" class="img-thumbnail"style="height:400px;width:400px"></div>
-  <div class="col-sm-4"><img src="${images}/cloth13.jpg" class="img-thumbnail"style="height:400px;width:400px"></div>
-  <div class="col-sm-4"><img src="${images}/cloth14.jpg" class="img-thumbnail"style="height:400px;width:400px"></div>
-  <div class="col-sm-4"><img src="${images}/cloth15.jpg" class="img-thumbnail"style="height:400px;width:400px"></div>
-                
+  <div class="col-sm-4"><img src="${images}/1.jpg" class="img-thumbnail"style="height:400px;width:400px"></div>
+  <div class="col-sm-4"><img src="${images}/2.jpg" class="img-thumbnail"style="height:400px;width:400px"></div>
+  <div class="col-sm-4"><img src="${images}/3.jpg" class="img-thumbnail"style="height:400px;width:400px"></div>
+  <div class="col-sm-4"><img src="${images}/4.jpg" class="img-thumbnail"style="height:400px;width:400px"></div>
+  <div class="col-sm-4"><img src="${images}/5.jpg" class="img-thumbnail"style="height:400px;width:400px"></div>
+  <div class="col-sm-4"><img src="${images}/6.jpg" class="img-thumbnail"style="height:400px;width:400px"></div>
+  <div class="col-sm-4"><img src="${images}/7.jpg" class="img-thumbnail"style="height:400px;width:400px"></div>
+  <div class="col-sm-4"><img src="${images}/8.jpg" class="img-thumbnail"style="height:400px;width:400px"></div>
+  <div class="col-sm-4"><img src="${images}/9.jpg" class="img-thumbnail"style="height:400px;width:400px"></div>
+  <div class="col-sm-4"><img src="${images}/10.jpg" class="img-thumbnail"style="height:400px;width:400px"></div>
+  <div class="col-sm-4"><img src="${images}/11.jpg" class="img-thumbnail"style="height:400px;width:400px"></div>
+  <div class="col-sm-4"><img src="${images}/12.jpg" class="img-thumbnail"style="height:400px;width:400px"></div>
+ 
 
 </div>
 </div>

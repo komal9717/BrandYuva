@@ -23,7 +23,10 @@ public class CategoryController {
 	
 	@Autowired
 	CategoryDao categoryDao;
-
+/*
+	The @RequestMapping annotation can be applied to class-level and/or method-level in a controller. The class-level annotation maps a 
+	specific request path or pattern onto a controller.*/ 
+	
 	@RequestMapping(value="/addCategory",method=RequestMethod.GET)
 	public ModelAndView getCategoryForm(){
 	ModelAndView mv=new ModelAndView("CategoryForm");
@@ -31,9 +34,18 @@ public class CategoryController {
 	return mv;
 	}
 	
+	/*The HttpSession object is used for session management. A session contains information specific to a particular user across the whole application.
+    You can store the user information into the session object by using setAttribute() method and later when needed this information can be fetched
+    from the session.*/
+	
 	
 	@Autowired
 	HttpSession session;
+	
+	/*[ BindingResult ] is Spring's object that holds the result of the validation and binding and contains errors that may have occurred. 
+	  The BindingResult must come right after the model object that is validated or else Spring will fail to validate the object and throw an 
+	  exception.*/
+	/* @Valid annotation is used to validate the method of the controller*/
 	
 	@RequestMapping(value="/addCategoryProcess",method=RequestMethod.POST)
 	public ModelAndView addCategoryProcess(@Valid @ModelAttribute("categoryObj")Category categoryObj,BindingResult result){

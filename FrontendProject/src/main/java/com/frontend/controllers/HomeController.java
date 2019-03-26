@@ -1,3 +1,5 @@
+
+
 package com.frontend.controllers;
 
 import java.security.Principal;
@@ -30,6 +32,8 @@ public class HomeController {
 	@Autowired
 	HttpSession session;
 	
+	/*public interface HttpServletRequest extends ServletRequest. Contains all the client's request information. */
+	
 	@Autowired
 	HttpServletRequest request;
 	
@@ -48,6 +52,8 @@ public class HomeController {
 			}
 		else {
 			String email=p.getName();
+			
+			
 			User user=userDao.getUserById(email);
 			
 			session.setAttribute("userObj",user);
@@ -65,6 +71,7 @@ public class HomeController {
 		}
 		
 		/*Model-data,View-whatever we want to display*/
+		
 		List<Category> categoryList=categoryDao.getAllCategories();
 		session.setAttribute("categoryList", categoryList);
 		

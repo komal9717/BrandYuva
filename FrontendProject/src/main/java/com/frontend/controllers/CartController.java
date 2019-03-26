@@ -192,7 +192,8 @@ private String userEmail;
 		return mv;
 	}
 
-	
+	/*The @ModelAttribute annotation can be used in two scenarios,Firstly, it can be used to inject data ,Secondly, it can be used to read data
+	  from an existing model assigning. */
 	@RequestMapping(value="addAddress",method=RequestMethod.POST)
 	public String addAsddress(@ModelAttribute("addressObj")Address addressObj){
 
@@ -297,6 +298,9 @@ private String userEmail;
 		
 	}
 
+	
+	
+	
 	@RequestMapping(value="/thankYou",method=RequestMethod.GET)
 	public ModelAndView thankyou() {
 		ModelAndView mv = new ModelAndView("ThankYouPage");
